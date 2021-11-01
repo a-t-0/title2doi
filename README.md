@@ -4,8 +4,10 @@ Converts journal article title(s) to DOI(s).
 ## Usage
 0. Download this repository.
 1. In Zotero, click: `Tools>Developer>Style Editor` and replace the existing code in the top box with the content of `title-list.csl`. Then click `refresh`.
-2. That generates a bibliography list containing only the titles, in the bottom half of the screen. Copy this list and paste it into/over `list_of_titles.txt`.
-3. Create the conda environment, activate it and then run the code with:
+2. That generates a bibliography list containing only the titles, in the bottom half of the screen. Copy this list and paste it into/over `list_of_titles.txt`. E.g.:
+<img src="https://github.com/a-t-0/title2doi/blob/main/example_zotero.png" alt="How to export list of titles from Zotero" width="600px"/>
+4. Create the conda environment, activate it and then run the code with:
+
 ```
 conda env create --file environment.yml
 conda activate title2doi
